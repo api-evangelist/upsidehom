@@ -1,7 +1,25 @@
 aid: upsidehom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upsidehom.png
 name: UpsideHoM
-description: UpsideHoM is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Upside (joinupside.com, originally UpsideHoM) is a housing-stability
+  company for health plans and employers. It finds, houses, and stabilizes members
+  whose housing instability disrupts health, care, and outcomes at scale - accepting
+  referrals, assessing housing needs, executing stabilization or transitions,
+  coordinating with community partners, and documenting outcomes for Medicaid and
+  Medicare plans, health systems, and employer programs. A Techstars portfolio
+  company, Upside publishes no public developer program or API surface as of
+  2026-07-21.
 url: https://raw.githubusercontent.com/api-evangelist/upsidehom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,22 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Housing
+- Healthcare
+- Medicaid
+- Medicare
+- Social Determinants of Health
+- Employers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,11 @@ maintainers:
 common:
 - type: Website
   url: https://joinupside.com/
+- type: Blog
+  url: https://www.joinupside.com/news/
+- type: Contact
+  url: https://www.joinupside.com/contact/
+- type: LLMsTxt
+  url: llms/upsidehom-llms.txt
+- type: DomainSecurity
+  url: security/upsidehom-domain-security.yml

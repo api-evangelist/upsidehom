@@ -1,0 +1,24 @@
+# Upside (UpsideHoM)
+
+> Upside (joinupside.com, originally UpsideHōM) is a housing-stability company
+> for health plans and employers. It finds, houses, and stabilizes members whose
+> housing instability disrupts health, care, and outcomes — accepting referrals,
+> assessing housing needs, executing stabilization or transitions, coordinating
+> with community partners, and documenting outcomes for Medicaid and Medicare
+> plans and employer programs. Techstars portfolio company.
+
+Upside publishes no public developer program: no API documentation, developer
+portal, OpenAPI specification, SDKs, or /.well-known/ API artifacts were found
+on joinupside.com as of 2026-07-21. The website is WordPress and exposes only
+the platform's standard /wp-json/ REST surface.
+
+## Company
+
+- [Website](https://www.joinupside.com/): Housing stability for health plans and employers
+- [About](https://www.joinupside.com/about/): Mission, model, and leadership team
+- [Medicaid](https://www.joinupside.com/medicaid/): Housing support for Medicaid plans
+- [Medicare](https://www.joinupside.com/medicare/): Housing support for Medicare plans
+- [Employers](https://www.joinupside.com/employers/): Housing support for employer programs
+- [Health Systems](https://www.joinupside.com/health-systems/): Housing support for health systems
+- [News](https://www.joinupside.com/news/): Company news and resources
+- [Contact](https://www.joinupside.com/contact/): Get in touch

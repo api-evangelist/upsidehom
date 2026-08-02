@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.joinupside.com/
+probed:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+notes: No well-known API or security artifacts published; only robots.txt resolves.
+  The site is WordPress and exposes the standard WordPress REST API at /wp-json/
+  (namespaces oembed/1.0, yoast/v1, wp/v2), which is platform infrastructure rather
+  than a first-party developer API.

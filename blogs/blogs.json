@@ -1,0 +1,21 @@
+{
+  "repo": "upsidehom",
+  "feeds": [
+    {
+      "source": "https://www.joinupside.com/feed/",
+      "feed_url": "https://www.joinupside.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://joinupside.com/",
+      "feed_url": "https://www.joinupside.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:49:00Z"
+}
